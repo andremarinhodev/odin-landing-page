@@ -133,3 +133,38 @@ a {
     font-weight: 800;
     color: #1F2937;
 }
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    padding: 32px 98px;
+    display: flex;
+    gap: 128px;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+
+.cta-text-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cta-text-sub {
+    font-size: 12px;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 4px 32px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid #e5e7eb;
+}
